@@ -45,7 +45,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
 
     // Generate many markers
     let markerArray = MarkerGenerator(near: mapCenter, count: 100).markerArray
-    // Comment the following code out if using the marker clusterer
+    // Comment the following code out if using the marker cluster
     // to manage markers instead.
     //    for marker in markerArray {
     //      marker.map = mapView
